@@ -5,7 +5,7 @@ public class TexttestFixture {
         System.out.println("OMGHAI!");
 
         Item[] items = new Item[] {
-                new Item("+5 Dexterity Vest", 10, 20), //
+                new Item("+5 Dexterity Vest", 0, 20), //
                 new Item("Aged Brie", 2, 0), //
                 new Item("Elixir of the Mongoose", 5, 7), //
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80), //
@@ -18,7 +18,7 @@ public class TexttestFixture {
                 new Item("mask of sunshine", 0, 6),
                 new Item("mask of sunshine", -1, 10)};
 
-        GildedRose app = new GildedRose(items);
+        GildedRoseBackUp app = new GildedRoseBackUp(items);
 
         int days = 3;
         if (args.length > 0) {
