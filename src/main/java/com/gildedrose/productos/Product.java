@@ -6,5 +6,9 @@ public interface Product {
 	
 	public void updateQuality(Item item);
 	public void updateSellIn(Item item);
+	public default void updateProductQualityAndSellInFor(Item item) {
+		updateQuality(item);
+		updateSellIn(item);
+	}
 
 }

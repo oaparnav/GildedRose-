@@ -6,13 +6,13 @@ public class HandOfRagnaros implements Product{
 
 	@Override
 	public void updateQuality(Item item) {
-		// TODO Auto-generated method stub
+		// HandOfRagnaros quality remains same
 		
 	}
 
 	@Override
 	public void updateSellIn(Item item) {
-		// TODO Auto-generated method stub
+		// HandOfRagnaros sellin remains same
 		
 	}
 
