@@ -28,7 +28,7 @@ public class Item {
 		return this.name + ", " + this.sellIn + ", " + this.quality;
 	}
 
-	void updateItem(GildedRose gildedRose) {
+	void updateItem() {
 		switch (name) {
 		case "Backstage passes to a TAFKAL80ETC concert" :
 			new TAFKAL80ETCConcert().updateProductQualityAndSellInFor(this);
